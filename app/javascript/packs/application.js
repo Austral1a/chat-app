@@ -14,3 +14,7 @@ require("semantic-ui-sass")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+$(document).on('turbolinks:load', () => {
+    $('.ui.dropdown').dropdown();
+})
