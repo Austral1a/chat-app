@@ -24,4 +24,12 @@ $(document).on('turbolinks:load', () => {
                 .transition('fade')
             ;
         });
+    scroll_buttom()
 });
+
+const scroll_buttom = () => {
+    msgs = $('#messages')
+    if (msgs.length > 0) {
+        msgs.scrollTop(msgs[0].scrollHeight)
+    }
+}
