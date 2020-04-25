@@ -23,6 +23,5 @@ $(document).on('turbolinks:load', () => {
                 .closest('.message')
                 .transition('fade')
             ;
-        })
-    ;
-})
+        });
+});
